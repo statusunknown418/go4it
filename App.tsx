@@ -1,20 +1,20 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { DripsyProvider, makeTheme, SafeAreaView, Text, View } from 'dripsy'
+import Home from './views/Home'
+
+const theme = makeTheme({
+  customFonts: {
+    ['Poppins']: {},
+  },
+})
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+    <DripsyProvider theme={theme}>
+      <SafeAreaView sx={(theme) => ({ flex: 1, alignItems: 'center', justifyContent: 'center' })}>
+        <View>
+          <Text sx={{ fontSize: 24 }}>This is gon' be so much fun</Text>
+        </View>
+      </SafeAreaView>
+    </DripsyProvider>
+  )
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
