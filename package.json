@@ -10,7 +10,8 @@
     "eject": "expo eject",
     "postinstall": "yarn husky install",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
-    "fix": "eslint --fix \"**/*.{js,ts,tsx}\" && prettier --write \"**/*.{js,ts,tsx}\""
+    "fix": "eslint --fix \"**/*.{js,ts,tsx}\" && prettier --write \"**/*.{js,ts,tsx}\"",
+    "pre-commit": "yarn fix"
   },
   "dependencies": {
     "dripsy": "^3.6.0",
