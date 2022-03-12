@@ -1,8 +1,8 @@
 Arguments: 
-  C:\Program Files\nodenvmjs\node.exe C:\Program Files\nodenvmjs\node_modules\yarn\bin\yarn.js add -D eslint-import-order
+  C:\Program Files\nodenvmjs\node.exe C:\Program Files\nodenvmjs\node_modules\yarn\bin\yarn.js add react-native-skia
 
 PATH: 
-  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\msys64\mingw64\bin;W:\MATHWORKS\runtime\win64;W:\MATHWORKS\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\LLVM\bin;C:\Program Files\dotnet\;C:\Program Files\Wolfram Research\WolframScript\;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\ProgramData\ComposerSetup\bin;C:\Users\gonza\AppData\Roaming\nvm;C:\Program Files\nodenvmjs;W:\fpc\bin\i386-Win32;C:\FPC\3.0.0\bin\i386-Win32;C:\Users\gonza\scoop\shims;C:\Windows\system32\config\systemprofile\scoop\shims;C:\Program Files\PowerShell\7\;C:\Users\gonza\AppData\Local\Android\Sdk;C:\Program Files\MySQL\MySQL Server 8.0\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\gonza\scoop\shims;C:\Users\gonza\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\gonza\AppData\Local\Programs\Python\Python39\;C:\Users\gonza\AppData\Local\Microsoft\WindowsApps;C:\Users\gonza\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\gonza\AppData\Roaming\Python\Python39\Scripts;C:\Users\gonza\AppData\Roaming\npm;C:\Users\gonza\AppData\Roaming\npm\node_modules\typescript\bin;C:\Users\gonza\AppData\Roaming\npm\ts-node;C:\tools\neovim\Neovim\bin;C:\Users\gonza\.deno\bin;C:\Users\gonza\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Users\gonza\AppData\Roaming\Composer\vendor\bin;C:\Users\gonza\AppData\Roaming\nvm;C:\Program Files\nodenvmjs;C:\Users\gonza\scoop\shims;C:\Users\gonza\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\Program Files\JetBrains\WebStorm 2021.1\bin;;C:\Program Files\heroku\bin
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\msys64\mingw64\bin;W:\MATHWORKS\runtime\win64;W:\MATHWORKS\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\LLVM\bin;C:\Program Files\dotnet\;C:\Program Files\Wolfram Research\WolframScript\;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\ProgramData\ComposerSetup\bin;C:\Users\gonza\AppData\Roaming\nvm;C:\Program Files\nodenvmjs;W:\fpc\bin\i386-Win32;C:\FPC\3.0.0\bin\i386-Win32;C:\Users\gonza\scoop\shims;C:\Windows\system32\config\systemprofile\scoop\shims;C:\Program Files\PowerShell\7\;C:\Users\gonza\AppData\Local\Android\Sdk;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;W:\projects\GIT_CLONE\vcpkg;C:\OpenSSL-Win64;C:\Users\gonza\.cargo\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\gonza\scoop\shims;C:\Users\gonza\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\gonza\AppData\Local\Programs\Python\Python39\;C:\Users\gonza\AppData\Local\Microsoft\WindowsApps;C:\Users\gonza\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\gonza\AppData\Roaming\Python\Python39\Scripts;C:\Users\gonza\AppData\Roaming\npm;C:\Users\gonza\AppData\Roaming\npm\node_modules\typescript\bin;C:\Users\gonza\AppData\Roaming\npm\ts-node;C:\tools\neovim\Neovim\bin;C:\Users\gonza\.deno\bin;C:\Users\gonza\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Users\gonza\AppData\Roaming\Composer\vendor\bin;C:\Users\gonza\AppData\Roaming\nvm;C:\Program Files\nodenvmjs;C:\Users\gonza\scoop\shims;C:\Users\gonza\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\Program Files\JetBrains\WebStorm 2021.1\bin;;C:\Program Files\heroku\bin;C:\Program Files\OpenSSL-Win64\bin;
 
 Yarn version: 
   1.22.17
@@ -14,17 +14,8 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/eslint-import-order: Not found
-      at Request.params.callback [as _callback] (C:\Users\gonza\AppData\Roaming\nvm\v16.13.0\node_modules\yarn\lib\cli.js:67029:18)
-      at Request.self.callback (C:\Users\gonza\AppData\Roaming\nvm\v16.13.0\node_modules\yarn\lib\cli.js:140883:22)
-      at Request.emit (node:events:390:28)
-      at Request.<anonymous> (C:\Users\gonza\AppData\Roaming\nvm\v16.13.0\node_modules\yarn\lib\cli.js:141855:10)
-      at Request.emit (node:events:390:28)
-      at IncomingMessage.<anonymous> (C:\Users\gonza\AppData\Roaming\nvm\v16.13.0\node_modules\yarn\lib\cli.js:141777:12)
-      at Object.onceWrapper (node:events:509:28)
-      at IncomingMessage.emit (node:events:402:35)
-      at endReadableNT (node:internal/streams/readable:1343:12)
-      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
 
 npm manifest: 
   {
@@ -39,7 +30,8 @@ npm manifest:
       "eject": "expo eject",
       "postinstall": "yarn husky install",
       "lint": "eslint \"**/*.{js,ts,tsx}\"",
-      "fix": "eslint --fix \"**/*.{js,ts,tsx}\" && manypkg fix && prettier --write \"**/*.{js,ts,tsx,json}\""
+      "fix": "eslint --fix \"**/*.{js,ts,tsx}\" && prettier --write \"**/*.{js,ts,tsx}\"",
+      "pre-commit": "yarn fix"
     },
     "dependencies": {
       "dripsy": "^3.6.0",
