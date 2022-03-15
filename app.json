@@ -19,10 +19,10 @@
     "ios": {
       "supportsTablet": true,
       "buildNumber": "1.0.0",
-      "bundleIdentifier": "com.adv.z_bundler"
+      "bundleIdentifier": "z-bundler.adv.dev"
     },
     "android": {
-      "package": "com.adv.z_bundler",
+      "package": "dev.adv.z_bundler",
       "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",

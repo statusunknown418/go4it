@@ -1,13 +1,15 @@
 {
-  "extends": [
-    "plugin:@typescript-eslint/recommended",
-    "prettier",
-    "plugin:prettier/recommended"
-  ],
+  "extends": ["plugin:@typescript-eslint/recommended", "prettier"],
   "plugins": ["@typescript-eslint", "prettier"],
   "rules": {
     "no-console": "warn",
     "sort-imports": ["error", { "ignoreCase": true, "ignoreDeclarationSort": true }],
     "no-unused-vars": "warn"
-  }
+  },
+  "prettier/prettier": [
+    "error",
+    {
+      "endOfLine": "auto"
+    }
+  ]
 }
