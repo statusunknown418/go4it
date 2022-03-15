@@ -1,4 +1,4 @@
-import { DripsyProvider, makeTheme, SafeAreaView, Text, View } from 'dripsy'
+import { DripsyProvider, SafeAreaView } from 'dripsy'
 import theme from './theme/main'
 import Home from './views/Home'
 

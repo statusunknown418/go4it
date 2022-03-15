@@ -12,7 +12,8 @@ const theme = makeTheme({
 type MainTheme = typeof theme
 
 declare module 'dripsy' {
-  type DripsyCustomTheme = MainTheme
+  // eslint-disable-next-line @typescript-eslint/no-empty-interface
+  interface DripsyCustomTheme extends MainTheme {}
 }
 
 export default theme
