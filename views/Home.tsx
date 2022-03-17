@@ -1,11 +1,27 @@
-import { StatusBar } from 'expo-status-bar'
+import { NativeStackScreenProps } from '@react-navigation/native-stack'
 import { Text, View } from 'dripsy'
+import { FC } from 'react'
+import { TouchableOpacity } from 'react-native'
+import { RootStackParamList } from '../App'
 
-const Home = () => {
+type Props = NativeStackScreenProps<RootStackParamList, 'Home'>
+
+const Home: FC<Props> = ({ navigation }) => {
   return (
-    <View>
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
       <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <TouchableOpacity
+        style={{
+          borderColor: 'black',
+          borderRadius: 10,
+          borderWidth: 1,
+          padding: 10,
+          marginVertical: 10,
+        }}
+        onPress={() => navigation.navigate('Config', { name: 'Jane' })}
+      >
+        <Text>go to other screen</Text>
+      </TouchableOpacity>
     </View>
   )
 }
