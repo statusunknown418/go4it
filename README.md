@@ -25,4 +25,4 @@ _I'll be back soon_
 
 **This app will be completely FREE, and it'll be funded by a minimal 0.5% comission on every payment**
 
-()[https://github.com/AlvaroAquijeDiaz/z-bundler/blob/master/assets/adaptive-icon.png]
+(https://github.com/AlvaroAquijeDiaz/z-bundler/blob/master/assets/adaptive-icon.png)[]
