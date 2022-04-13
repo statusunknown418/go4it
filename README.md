@@ -24,3 +24,5 @@ Haven't been as active as I wanted on this project mainly because I'm awaiting m
 _I'll be back soon_
 
 **This app will be completely FREE, and it'll be funded by a minimal 0.5% comission on every payment**
+
+()[https://github.com/AlvaroAquijeDiaz/z-bundler/blob/master/assets/adaptive-icon.png]
